@@ -22,7 +22,6 @@ header {
   overflow: hidden;
 }
 /* -------------   START : TOP HEADER  --------------------*/
-
 #top-header {
   padding: 20px;
   /* height: 60px; */
@@ -69,6 +68,66 @@ header {
 }
 
 /* -------------   END : TOP HEADER  --------------------*/
+
+/* ---------------  START :   MAIN => about   --------------------------------*/
+
+#about {
+  background-color: antiquewhite;
+}
+
+#about .about-heading {
+  text-align: center;
+  color: #bbbbbb;
+}
+#about .about-description {
+  text-align: center;
+  color: #bbbbbb;
+}
+
+#about .jounery {
+  border: #24262b;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-container .left-pane {
+  flex: 1; /* Items in flex-container divide equally */
+  text-align: center;
+  padding: 10px;
+  background-color: aqua; /* Added for testing purpose  */
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .jounery {
+  flex: 1;
+  background-color: aquamarine; /* Added for testing purpose  */
+}
+
+.jounery .event {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.event .event-date {
+  font-size: smaller;
+  font-style: italic;
+  color: #bbbbbb;
+  text-align: end;
+}
+
+.event .event-description {
+  font-size: smaller;
+  color: #bbbbbb;
+}
+/* ---------------  END :   MAIN => about   --------------------------------*/
 
 /* #menu {
   float: right;
