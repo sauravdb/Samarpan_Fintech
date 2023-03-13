@@ -275,6 +275,52 @@
 /*home end---------------------------------------------------------------------------------------------------*/
 
 
+/*--------------------------------------------------------------
+# About Us Section
+--------------------------------------------------------------*/
+.about h3 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: var(--font-secondary);
+  
+}
+
+.about .section-header {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.about .section-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.about .section-header h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.about .section-header p {
+  margin-bottom: 0;
+  color: #6f6f6f;
+}
+
+
+
+
+
 
 
 /*services start----------------------------------------------------------------------------------*/
