@@ -28,6 +28,7 @@
   z-index: 111;
   border-bottom: #909090ad;
   height: 90px;
+
 }
 .header-container{
   width: 100%;
@@ -137,6 +138,7 @@
   width: 100%;
   position: relative;
   padding: 60px 0 100px 0;
+  background-color: #f3f3f3;
 }
 
 @media (min-width: 1365px) {
@@ -272,17 +274,22 @@
 }
 
 
+
+
 /*home end---------------------------------------------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------
-# About Us Section
---------------------------------------------------------------*/
+/*about us start --------------------------------------------------------------------------------------------*/
+.about{
+  background-color: #f3f3f3;
+}
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
+
   
 }
 
@@ -318,7 +325,7 @@
 }
 
 
-
+/*about us end -----------------------------------------------------------------------------------*/
 
 
 
@@ -345,6 +352,7 @@
   -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
   box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
 }
 
 .content-103 .service-content {
@@ -366,10 +374,14 @@
   -o-transition: color, 250ms;
   -webkit-transition: color, 250ms;
   transition: color, 250ms;
+
 }
+
+
 
 .content-103 .service-post:hover .service-icon {
   border-color: #fff;
+  border-radius: 15px;
 }
 
 .content-103 .service-icon i {
@@ -419,13 +431,13 @@
   -o-transition: width, 250ms;
   -webkit-transition: width, 250ms;
   transition: width, 250ms;
+  border-radius: 15px;
 }
 
 /*hover-background-color effect*/
 .content-103 .service-post:hover .service-hover {
   height: 100%;
 }
-
 
 .serve h3 {
     font-size: 36px;
@@ -443,6 +455,9 @@
     color: #556877;
     width: 50%;
 }
+
+
+
 /*services end-----------------------------------------------------------------------------------------*/
 
 
@@ -510,8 +525,8 @@
 
 
 
-/*about us start--------------------------------------------------------------------------------------------*/
-#aboutus{
+/*team start--------------------------------------------------------------------------------------------*/
+#team{
   background-color: #f3f3f3;
 }
 
@@ -521,7 +536,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:   #f3f3f3;;
+  background-color:   #f3f3f3;
 }
 
 
@@ -589,7 +604,7 @@
   margin: 2px 0 9px 0;
 }
 
-.about h3 {
+.team h3 {
     font-size: 36px;
     color: #283d50;
     text-align: center;
@@ -597,7 +612,7 @@
     position: relative;
 }
 
-.about p {
+.team p {
     text-align: center;
     margin: auto;
     font-size: 15px;
@@ -607,7 +622,7 @@
 }
 
 
-/*about us end-----------------------------------------------------------------------------------------------*/
+/*team end-----------------------------------------------------------------------------------------------*/
 
 
 
@@ -688,7 +703,7 @@
 }
 
 .copyright-text p {
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 0px;
   font-size: 14px;
   color: lightgray;
