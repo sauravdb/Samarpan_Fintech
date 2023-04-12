@@ -23,6 +23,7 @@
 .navbar-links {
     height: 100%;
 
+
 }
 
 .navbar-links ul {
@@ -311,9 +312,7 @@
   background-color: #f3f3f3;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+
 
 /* Fading animation */
 .fade {
@@ -541,7 +540,7 @@
 
 #partners{
   background-color: #f3f3f3 ;
-  height: 80vh;
+  height: 60vh;
 }
 .wrapper {
   display: flex;
@@ -611,7 +610,7 @@ height: 200px;
 
 #bankers{
   background-color: #f3f3f3 ;
-  height: 80vh;
+  height: 60vh;
 }
 .wrapper {
   display: flex;
