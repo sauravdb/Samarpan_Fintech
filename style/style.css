@@ -20,6 +20,11 @@
   padding: 15px;
 }
 
+.brand-title:hover{
+  color: #ff4a44;
+
+}
+
 .navbar-links {
     height: 100%;
 
@@ -721,7 +726,7 @@ height: 100px;
 .team-details {
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 0;
   padding: 5%;
   overflow: hidden;
@@ -743,12 +748,13 @@ height: 100px;
   opacity: 1;
   margin-top: -80px;
 
-
 }
 
 .team-img:hover{
    border-radius: 20px;
 }
+
+
 
 .team-img:hover .overlay {
   opacity: 1;
